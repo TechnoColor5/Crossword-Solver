@@ -4,8 +4,9 @@
  * Assignment 1 of CS 1501
  * 
  * This class is the main driver that goes through a crossword puzzle inputted by the user and
- * finds every solution possible for it. It has the ability to use a DLB or a MyDictionary to
- * hold the dictionary. Run the program using the following syntax:
+ * finds every solution possible for it (but only outputs ever 10000th solution).
+ * It has the ability to use a DLB or a MyDictionary to hold the dictionary. Run the
+ * program using the following syntax:
  *
  *				java Crossword [dictType] [testFile]
  *
