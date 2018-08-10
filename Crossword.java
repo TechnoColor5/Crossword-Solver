@@ -1,6 +1,19 @@
-/* CrossWord solving program by Daniel Mailloux (DAM255)
-	* Last updated June 7th, 2018
-*/
+/** 
+ * @author Daniel Mailloux
+ * @version 1.0
+ * Assignment 1 of CS 1501
+ * 
+ * This class is the main driver that goes through a crossword puzzle inputted by the user and
+ * finds every solution possible for it. It has the ability to use a DLB or a MyDictionary to
+ * hold the dictionary. Run the program using the following syntax:
+ *
+ *				java Crossword [dictType] [testFile]
+ *
+ * @param dictType : type of dictionary, if "DLB" the program uses a DLB otherwise it uses a myDictionary
+ * @param testFile : name of the file holding the crossword puzzle
+
+ * Current issues: One or two of the harder crossword puzzles give some incorrect solutions.
+ */
 
 import java.io.*;
 import java.util.*;

@@ -1,6 +1,9 @@
-/* DLB implementation of a Dictionary
-	* Written by Daniel Mailloux (DAM255)
-	* Last updated June 7, 2018
+/**
+ * @author Daniel Mailloux
+ * @version v1.0
+ *
+ * This is a DLB version of the myDictionary class provided for the project.
+ * Using this class allows for a much faster run-time.
 */
 
 public class DLB implements DictInterface
